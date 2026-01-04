@@ -18,22 +18,14 @@ This project is designed to help *travelers* make smarter booking decisions and 
 
 ---
 
-## Screenshots
+## Technologies Used
 
-| Main Landing | Predictor Page |
-|--------------|----------------|
-| ![Landing](./screenshots/main.png) | ![Predict](./screenshots/predict.png) |
-
----
-
-## 🧠 Technologies Used
-
-### 🔹 Frontend
-- HTML5, CSS3 (custom styling)
+### a) Frontend
+- `HTML5`, CSS3 (custom styling)
 - JavaScript (modular, dynamic search, globe interaction)
-- `globe.gl` for interactive 3D city visualization
+- `globe.gl` for interactive 3D city visualization (for globe deployment on the main web page)
 
-### 🔹 Backend
+### b) Backend
 - **FastAPI** for the REST API
 - **Joblib** for model loading
 - **Pandas**, **NumPy** for preprocessing
