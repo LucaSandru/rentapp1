@@ -63,8 +63,13 @@ RentAPP/
    - api/models/ # ML models + metadata
    - scripts/ # Scripts to update prices, etc.
 - frontend/
- - index.html # Main page
- - predict.html # Prediction UI
- - js/ # Interactive JS (globe.js, search.js etc.)
- - css/style.css # Main styling
-- notebooks
+   - index.html # Main page
+   - predict.html # Prediction UI
+   - js/ # Interactive JS (globe.js, search.js etc.)
+   - css/style.css # Main styling
+- notebooks/
+   - fixed_train_florence.ipynb
+- data/
+   - cities.json # Metadata for cities
+   - average_prices.json # Cached price per city
+   - exchange_rates.json # Cached FX data
