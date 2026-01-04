@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rent Price Predictor</title>
+  <style>
+
+    details summary {
+      cursor: pointer;
+      margin: 15px 0;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+    label {
+      font-weight: bold;
+      display: block;
+      margin-top: 15px;
+    }
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px;
+      font-weight: bold;
+      width: 100%;
+    }
+    #result {
+      margin-top: 20px;
+      font-size: 1.2em;
+      color: green;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Estimate Rent Price</h2>
+
+  <form id="predict-form">
+  <h3>Essential Info (Required)</h3>
+
+  <label>Accommodates</label>
+  <input type="number" name="accommodates" required />
+
+  <label>Bedrooms</label>
+  <input type="number" name="bedrooms" step="0.5" required />
+
+  <label>Bathrooms</label>
+  <input type="number" name="bathrooms" step="0.5" required />
+
+  <label>Room Type: Private Room (1 or 0)</label>
+  <input type="number" name="room_type_Private_room" min="0" max="1" required />
+
+  <label>Room Type: Entire Home (1 or 0)</label>
+  <input type="number" name="room_type_Entire_home_apt" min="0" max="1" required />
+
+  <label>Beds</label>
+  <input type="number" name="beds" step="1" />
+
+  <label>Property Type: Apartment (1 or 0)</label>
+  <input type="number" name="property_type_Apartment" min="0" max="1" required />
+
+  <details style="margin-top: 20px;">
+    <summary><strong>Advanced Options (Optional)</strong></summary>
+
+    <p style="font-size: 0.9em; color: #555; margin-top: 5px;">
+  These fields are optional but can improve prediction accuracy.
+</p>
+
+    <label>Review Score (Rating)</label>
+    <input type="number" name="review_scores_rating" step="0.1" />
+
+    <label>Number of Reviews</label>
+    <input type="number" name="number_of_reviews" />
+
+    <label>Review Score (Cleanliness)</label>
+    <input type="number" name="review_scores_cleanliness" step="0.1" />
+
+    <label>Review Score (Location)</label>
+    <input type="number" name="review_scores_location" step="0.1" />
+
+    <label>Instant Bookable (1 or 0)</label>
+    <input type="number" name="instant_bookable" min="0" max="1" />
+
+    <label>Reviews per Month</label>
+    <input type="number" name="reviews_per_month" step="0.1" />
+
+    <label>Amenities Count</label>
+    <input type="number" name="amenities_count" />
+  </details>
+
+
+  <button type="submit">Predict Price</button>
+</form>
+
+
+  <div id="result"></div>
+
+  <script>
+    document.getElementById("predict-form").addEventListener("submit", async function(e) {
+      e.preventDefault();
+
+      const formData = new FormData(e.target);
+      const data = {};
+
+      formData.forEach((value, key) => {
+        if (value !== "") {
+          data[key] = isNaN(value) ? value : Number(value);
+        }
+      });
+
+      const res = await fetch("/predict", {
+      method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(data)
+      });
+
+      const resultDiv = document.getElementById("result");
+
+      if (res.ok) {
+        const result = await res.json();
+        resultDiv.innerHTML = `Estimated price: <strong>${result.estimated_price.toFixed(2)} €</strong>`;
+      } else {
+        const error = await res.json();
+        resultDiv.innerHTML = `<span style="color:red;">Error: ${error.detail}</span>`;
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+{
+  "Historic Wonders": [
+    {
+      "city": "Barcelona",
+      "score": 10
+    },
+    {
+      "city": "Paris",
+      "score": 4
+    },
+    {
+      "city": "Rio de Janeiro",
+      "score": 2
+    },
+    {
+      "city": "Rome",
+      "score": 1
+    },
+    {
+      "city": "Kyoto",
+      "score": 1
+    }
+  ],
+  "Peaceful Escapes": [
+    {
+      "city": "Rio de Janeiro",
+      "score": 10
+    },
+    {
+      "city": "Barcelona",
+      "score": 9
+    },
+    {
+      "city": "Paris",
+      "score": 2
+    },
+    {
+      "city": "Bali",
+      "score": 2
+    },
+    {
+      "city": "Rome",
+      "score": 1
+    }
+  ],
+  "Vibrant Nights": [
+    {
+      "city": "Barcelona",
+      "score": 10
+    },
+    {
+      "city": "Paris",
+      "score": 7
+    },
+    {
+      "city": "Rio de Janeiro",
+      "score": 5
+    },
+    {
+      "city": "Bali",
+      "score": 2
+    },
+    {
+      "city": "New Orleans",
+      "score": 2
+    }
+  ],
+  "Culinary Delights": [
+    {
+      "city": "Paris",
+      "score": 10
+    },
+    {
+      "city": "Barcelona",
+      "score": 9
+    },
+    {
+      "city": "Bali",
+      "score": 5
+    },
+    {
+      "city": "Rio de Janeiro",
+      "score": 4
+    },
+    {
+      "city": "Rome",
+      "score": 1
+    }
+  ],
+  "Work & Remote Life": [
+    {
+      "city": "Paris",
+      "score": 10
+    },
+    {
+      "city": "Barcelona",
+      "score": 10
+    },
+    {
+      "city": "Bali",
+      "score": 5
+    },
+    {
+      "city": "Rio de Janeiro",
+      "score": 2
+    },
+    {
+      "city": "Rome",
+      "score": 1
+    }
+  ],
+  "Cities of Love": [
+    {
+      "city": "Barcelona",
+      "score": 10
+    },
+    {
+      "city": "Rio de Janeiro",
+      "score": 10
+    },
+    {
+      "city": "New Orleans",
+      "score": 4
+    },
+    {
+      "city": "Paris",
+      "score": 3
+    },
+    {
+      "city": "Bali",
+      "score": 3
+    }
+  ]
+}

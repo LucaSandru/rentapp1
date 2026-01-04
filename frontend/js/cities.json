@@ -1,0 +1,1055 @@
+[
+  {
+    "city": "Montréal",
+    "country_name": "Canada",
+    "lat": 45.50884,
+    "lng": -73.58781,
+    "country": "CA",
+    "bestSeason": "June – September",
+    "currency": "CAD"
+  },
+  {
+    "city": "New Brunswick",
+    "country_name": "Canada",
+    "lat": 46.5653,
+    "lng": -66.4619,
+    "country": "CA",
+    "bestSeason": "June – September",
+    "currency": "CAD"
+  },
+  {
+    "city": "Ottawa",
+    "country_name": "Canada",
+    "lat": 45.41117,
+    "lng": -75.69812,
+    "country": "CA",
+    "bestSeason": "May – September",
+    "currency": "CAD"
+  },
+  {
+    "city": "Québec",
+    "country_name": "Canada",
+    "lat": 46.81228,
+    "lng": -71.21454,
+    "country": "CA",
+    "bestSeason": "June – September",
+    "currency": "CAD"
+  },
+  {
+    "city": "Toronto",
+    "country_name": "Canada",
+    "lat": 43.70011,
+    "lng": -79.4163,
+    "country": "CA",
+    "bestSeason": "May – September",
+    "currency": "CAD"
+  },
+  {
+    "city": "Vancouver",
+    "country_name": "Canada",
+    "lat": 49.24966,
+    "lng": -123.11934,
+    "country": "CA",
+    "bestSeason": "June – September",
+    "currency": "CAD"
+  },
+  {
+    "city": "Victoria",
+    "country_name": "Canada",
+    "lat": 48.43294,
+    "lng": -123.3693,
+    "country": "CA",
+    "bestSeason": "June – September",
+    "currency": "CAD"
+  },
+  {
+    "city": "Winnipeg",
+    "country_name": "Canada",
+    "lat": 49.8844,
+    "lng": -97.14704,
+    "country": "CA",
+    "bestSeason": "June – August",
+    "currency": "CAD"
+  },
+  {
+    "city": "Albany",
+    "country_name": "USA",
+    "lat": 42.65258,
+    "lng": -73.75623,
+    "country": "US",
+    "bestSeason": "May – October",
+    "currency": "USD"
+  },
+  {
+    "city": "Asheville",
+    "country_name": "USA",
+    "lat": 35.60095,
+    "lng": -82.55402,
+    "country": "US",
+    "bestSeason": "March – May, September – November",
+    "currency": "USD"
+  },
+  {
+    "city": "Austin",
+    "country_name": "USA",
+    "lat": 30.26715,
+    "lng": -97.74306,
+    "country": "US",
+    "bestSeason": "March – May, September – November",
+    "currency": "USD"
+  },
+  {
+    "city": "Boston",
+    "country_name": "USA",
+    "lat": 42.35843,
+    "lng": -71.05977,
+    "country": "US",
+    "bestSeason": "May – October",
+    "currency": "USD"
+  },
+  {
+    "city": "Bozeman",
+    "country_name": "USA",
+    "lat": 45.67965,
+    "lng": -111.03856,
+    "country": "US",
+    "bestSeason": "June – September",
+    "currency": "USD"
+  },
+  {
+    "city": "Brovard County",
+    "country_name": "USA",
+    "lat": 26.124354,
+    "lng": -80.249503,
+    "country": "US",
+    "bestSeason": "November – April",
+    "currency": "USD"
+  },
+  {
+    "city": "Cambridge",
+    "country_name": "USA",
+    "lat": 42.3751,
+    "lng": -71.10561,
+    "country": "US",
+    "bestSeason": "May – October",
+    "currency": "USD"
+  },
+  {
+    "city": "Chicago",
+    "country_name": "USA",
+    "lat": 41.85003,
+    "lng": -87.65005,
+    "country": "US",
+    "bestSeason": "May – October",
+    "currency": "USD"
+  },
+  {
+    "city": "Clark County",
+    "country_name": "USA",
+    "lat": 45.77,
+    "lng": -122.48,
+    "country": "US",
+    "bestSeason": "June – September",
+    "currency": "USD"
+  },
+  {
+    "city": "Columbus",
+    "country_name": "USA",
+    "lat": 39.96118,
+    "lng": -82.99879,
+    "country": "US",
+    "bestSeason": "May – October",
+    "currency": "USD"
+  },
+  {
+    "city": "Dallas",
+    "country_name": "USA",
+    "lat": 32.78306,
+    "lng": -96.80667,
+    "country": "US",
+    "bestSeason": "March – May, September – November",
+    "currency": "USD"
+  },
+  {
+    "city": "Denver",
+    "country_name": "USA",
+    "lat": 39.73915,
+    "lng": -104.9847,
+    "country": "US",
+    "bestSeason": "April – October",
+    "currency": "USD"
+  },
+  {
+    "city": "Fort Worth",
+    "country_name": "USA",
+    "lat": 32.72541,
+    "lng": -97.32085,
+    "country": "US",
+    "bestSeason": "March – May, September – November",
+    "currency": "USD"
+  },
+  {
+    "city": "Hawaii",
+    "country_name": "USA",
+    "lat": 21.3069,
+    "lng": 157.8237,
+    "country": "US",
+    "bestSeason": "April – October",
+    "currency": "USD"
+  },
+  {
+    "city": "Jersey City",
+    "country_name": "USA",
+    "lat": 40.72816,
+    "lng": -74.07764,
+    "country": "US",
+    "bestSeason": "May – October",
+    "currency": "USD"
+  },
+  {
+    "city": "Los Angeles",
+    "country_name": "USA",
+    "lat": 34.05223,
+    "lng": -118.24368,
+    "country": "US",
+    "bestSeason": "March – May, September – November",
+    "currency": "USD"
+  },
+  {
+    "city": "Nashville",
+    "country_name": "USA",
+    "lat": 36.16589,
+    "lng": -86.78444,
+    "country": "US",
+    "bestSeason": "April – October",
+    "currency": "USD"
+  },
+  {
+    "city": "New Orleans",
+    "country_name": "USA",
+    "lat": 29.95465,
+    "lng": -90.07507,
+    "country": "US",
+    "bestSeason": "February – May, October – December",
+    "currency": "USD"
+  },
+  {
+    "city": "New York City",
+    "country_name": "USA",
+    "lat": 40.71427,
+    "lng": -74.00597,
+    "country": "US",
+    "bestSeason": "April – June, September – November",
+    "currency": "USD"
+  },
+  {
+    "city": "Newark",
+    "country_name": "USA",
+    "lat": 40.73566,
+    "lng": -74.17237,
+    "country": "US",
+    "bestSeason": "April – June, September – November",
+    "currency": "USD"
+  },
+  {
+    "city": "Oakland",
+    "country_name": "USA",
+    "lat": 37.80437,
+    "lng": -122.2708,
+    "country": "US",
+    "bestSeason": "September – November",
+    "currency": "USD"
+  },
+  {
+    "city": "Pacific Grove",
+    "country_name": "USA",
+    "lat": 36.61774,
+    "lng": -121.916664,
+    "country": "US",
+    "bestSeason": "April – October",
+    "currency": "USD"
+  },
+  {
+    "city": "Portland",
+    "country_name": "USA",
+    "lat": 45.52345,
+    "lng": -122.67621,
+    "country": "US",
+    "bestSeason": "June – September",
+    "currency": "USD"
+  },
+  {
+    "city": "Rhode Island",
+    "country_name": "USA",
+    "lat": 41.5573,
+    "lng": -71.4979,
+    "country": "US",
+    "bestSeason": "May – October",
+    "currency": "USD"
+  },
+  {
+    "city": "Rochester",
+    "country_name": "USA",
+    "lat": 43.15478,
+    "lng": -77.61556,
+    "country": "US",
+    "bestSeason": "May – October",
+    "currency": "USD"
+  },
+  {
+    "city": "Salem",
+    "country_name": "USA",
+    "lat": 44.9429,
+    "lng": -123.0351,
+    "country": "US",
+    "bestSeason": "June – September",
+    "currency": "USD"
+  },
+  {
+    "city": "San Diego",
+    "country_name": "USA",
+    "lat": 32.71533,
+    "lng": -117.15726,
+    "country": "US",
+    "bestSeason": "March – May, September – November",
+    "currency": "USD"
+  },
+  {
+    "city": "San Francisco",
+    "country_name": "USA",
+    "lat": 37.77493,
+    "lng": -122.41942,
+    "country": "US",
+    "bestSeason": "September – November",
+    "currency": "USD"
+  },
+  {
+    "city": "San Mateo County",
+    "country_name": "USA",
+    "lat": 37.56299,
+    "lng": -122.32553,
+    "country": "US",
+    "bestSeason": "September – November",
+    "currency": "USD"
+  },
+  {
+    "city": "Santa Clara County",
+    "country_name": "USA",
+    "lat": 37.35411,
+    "lng": -121.95524,
+    "country": "US",
+    "bestSeason": "September – November",
+    "currency": "USD"
+  },
+  {
+    "city": "Santa Cruz County",
+    "country_name": "USA",
+    "lat": 37.0551,
+    "lng": -121.879,
+    "country": "US",
+    "bestSeason": "September – November",
+    "currency": "USD"
+  },
+  {
+    "city": "Seattle",
+    "country_name": "USA",
+    "lat": 47.60621,
+    "lng": -122.33207,
+    "country": "US",
+    "bestSeason": "June – September",
+    "currency": "USD"
+  },
+  {
+    "city": "Twin Cities MSA",
+    "country_name": "USA",
+    "lat": 44.9778,
+    "lng": -93.265,
+    "country": "US",
+    "bestSeason": "May – September",
+    "currency": "USD"
+  },
+  {
+    "city": "Washington D.C",
+    "country_name": "USA",
+    "lat": 38.89511,
+    "lng": -77.03637,
+    "country": "US",
+    "bestSeason": "March – May, September – November",
+    "currency": "USD"
+  },
+  {
+    "city": "Cape Town",
+    "country_name": "South Africa", 
+    "lat": -33.9514,
+    "lng": 18.4686,
+    "country": "ZA",
+    "bestSeason": "November – March",
+    "currency": "ZAR"
+  },
+  {
+    "city": "Barossa Valley",
+    "country_name": "Australia",
+    "lat": -34.51991,
+    "lng": 139.02091,
+    "country": "AU",
+    "bestSeason": "March – May, September – November",
+    "currency": "AUD"
+  },
+  {
+    "city": "Barwon",
+    "country_name": "Australia",
+    "lat": 38.2875,
+    "lng": 144.5292,
+    "country": "AU",
+    "bestSeason": "December – February",
+    "currency": "AUD"
+  },
+  {
+    "city": "Brisbane",
+    "country_name": "Australia",
+    "lat": -27.46794,
+    "lng": 153.02809,
+    "country": "AU",
+    "bestSeason": "March – May, September – November",
+    "currency": "AUD"
+  },
+  {
+    "city": "Melbourne",
+    "country_name": "Australia",
+    "lat": -37.814,
+    "lng": 144.96332,
+    "country": "AU",
+    "bestSeason": "March – May, September – November",
+    "currency": "AUD"
+  },
+  {
+    "city": "Mid North Coast",
+    "country_name": "Australia",
+    "lat": 31.16,
+    "lng": 152.54,
+    "country": "AU",
+    "bestSeason": "September – November",
+    "currency": "AUD"
+  },
+  {
+    "city": "Mornington Peninsula",
+    "country_name": "Australia",
+    "lat": -38.43359,
+    "lng": 144.92371,
+    "country": "AU",
+    "bestSeason": "December – February",
+    "currency": "AUD"
+  },
+  {
+    "city": "Northern Rivers",
+    "country_name": "Australia",
+    "lat": -29.15,
+    "lng": 153.116667,
+    "country": "AU",
+    "bestSeason": "September – November",
+    "currency": "AUD"
+  },
+  {
+    "city": "Sunshine Coast",
+    "country_name": "Australia",
+    "lat": -26.657,
+    "lng": 153.102,
+    "country": "AU",
+    "bestSeason": "September – November",
+    "currency": "AUD"
+  },
+  {
+    "city": "Sydney",
+    "country_name": "Australia",
+    "lat": -33.86785,
+    "lng": 151.20732,
+    "country": "AU",
+    "bestSeason": "September – November, March – May",
+    "currency": "AUD"
+  },
+  {
+    "city": "Tasmania",
+    "country_name": "Australia",
+    "lat": -42.87936,
+    "lng": 147.32941,
+    "country": "AU",
+    "bestSeason": "December – February",
+    "currency": "AUD"
+  },
+  {
+    "city": "Western Australia",
+    "country_name": "Australia",
+    "lat": -33.32711,
+    "lng": 115.64137,
+    "country": "AU",
+    "bestSeason": "September – November",
+    "currency": "AUD"
+  },
+  {
+    "city": "Hong Kong",
+    "country_name": "Hong Kong",
+    "lat": 22.28552,
+    "lng": 114.15769,
+    "country": "HK",
+    "bestSeason": "October – December, March – May",
+    "currency": "HKD"
+  },
+  {
+    "city": "Tokio",
+    "country_name": "Japan",
+    "lat": 35.6895,
+    "lng": 139.69171,
+    "country": "JP",
+    "bestSeason": "March – May, October – November",
+    "currency": "JPY"
+  },
+  {
+    "city": "Singapore",
+    "country_name": "Singapore",
+    "lat": 1.28967,
+    "lng": 103.85007,
+    "country": "SG",
+    "bestSeason": "February – April",
+    "currency": "SGD"
+  },
+  {
+    "city": "Taipei",
+    "country_name": "Taiwan",
+    "lat": 25.04776,
+    "lng": 121.53185,
+    "country": "TW",
+    "bestSeason": "October – December, March – May",
+    "currency": "TWD"
+  },
+  {
+    "city": "Bangkok",
+    "country_name": "Thailand",
+    "lat": 13.75398,
+    "lng": 100.50144,
+    "country": "TH",
+    "bestSeason": "November – February",
+    "currency": "THB"
+  },
+  {
+    "city": "Buenos Aires",
+    "country_name": "Argentina",
+    "lat": -34.61315,
+    "lng": -58.37723,
+    "country": "AR",
+    "bestSeason": "September – November, March – May",
+    "currency": "ARS"
+  },
+  {
+    "city": "Belize",
+    "country_name": "Belize",
+    "lat": 17.49952,
+    "lng": -88.19756,
+    "country": "BZ",
+    "bestSeason": "November – April",
+    "currency": "BZD"
+  },
+  {
+    "city": "Rio de Janeiro",
+    "country_name": "Brazil",
+    "lat": -22.90278,
+    "lng": -43.2075,
+    "country": "BR",
+    "bestSeason": "December – March",
+    "currency": "BRL"
+  },
+  {
+    "city": "Santiago",
+    "country_name": "Chile",
+    "lat": -33.45694,
+    "lng": -70.64827,
+    "country": "CL",
+    "bestSeason": "September – November, March – May",
+    "currency": "CLP"
+  },
+  {
+    "city": "Mexico City",
+    "country_name": "Mexico",
+    "lat": 19.42847,
+    "lng": -99.12766,
+    "country": "MX",
+    "bestSeason": "March – May, September – November",
+    "currency": "MXN"
+  },
+  {
+    "city": "Vienna",
+    "country_name": "Austria",
+    "lat": 48.20849,
+    "lng": 16.37208,
+    "country": "AT",
+    "bestSeason": "April – October",
+    "currency": "EUR"
+  },
+  {
+    "city": "Antwerp",
+    "country_name": "Belgium",
+    "lat": 51.21989,
+    "lng": 4.40346,
+    "country": "BE",
+    "bestSeason": "May – September",
+    "currency": "EUR"
+  },
+  {
+    "city": "Brussels",
+    "country_name": "Belgium",
+    "lat": 50.85045,
+    "lng": 4.34878,
+    "country": "BE",
+    "bestSeason": "May – September",
+    "currency": "EUR"
+  },
+  {
+    "city": "Ghent",
+    "country_name": "Belgium",
+    "lat": 51.05,
+    "lng": 3.71667,
+    "country": "BE",
+    "bestSeason": "May – September",
+    "currency": "EUR"
+  },
+  {
+    "city": "Prague",
+    "country_name": "Czech Republic",
+    "lat": 50.08804,
+    "lng": 14.42076,
+    "country": "CZ",
+    "bestSeason": "May – September",
+    "currency": "CZK"
+  },
+  {
+    "city": "Copenhagen",
+    "country_name": "Denmark",
+    "lat": 55.67594,
+    "lng": 12.56553,
+    "country": "DK",
+    "bestSeason": "May – September",
+    "currency": "DKK"
+  },
+  {
+    "city": "Bordeaux",
+    "country_name": "France",
+    "lat": 44.84044,
+    "lng": -0.5805,
+    "country": "FR",
+    "bestSeason": "May – October",
+    "currency": "EUR"
+  },
+  {
+    "city": "Lyon",
+    "country_name": "France",
+    "lat": 45.74846,
+    "lng": 4.84671,
+    "country": "FR",
+    "bestSeason": "May – October",
+    "currency": "EUR"
+  },
+  {
+    "city": "Paris",
+    "country_name": "France",
+    "lat": 48.85341,
+    "lng": 2.3488,
+    "country": "FR",
+    "bestSeason": "April – June, September – October",
+    "currency": "EUR"
+  },
+  {
+    "city": "Pays Basque",
+    "country_name": "France",
+    "lat": 43.362175,
+    "lng": -1.56424,
+    "country": "FR",
+    "bestSeason": "June – September",
+    "currency": "EUR"
+  },
+  {
+    "city": "Berlin",
+    "country_name": "Germany",
+    "lat": 52.52437,
+    "lng": 13.41053,
+    "country": "DE",
+    "bestSeason": "May – September",
+    "currency": "EUR"
+  },
+  {
+    "city": "Munich",
+    "country_name": "Germany",
+    "lat": 48.13743,
+    "lng": 11.57549,
+    "country": "DE",
+    "bestSeason": "May – September",
+    "currency": "EUR"
+  },
+  {
+    "city": "Athens",
+    "country_name": "Greece",
+    "lat": 37.97945,
+    "lng": 23.71622,
+    "country": "GR",
+    "bestSeason": "March – May, September – November",
+    "currency": "EUR"
+  },
+  {
+    "city": "Crete",
+    "country_name": "Greece",
+    "lat": 35.51124,
+    "lng": 24.02921,
+    "country": "GR",
+    "bestSeason": "May – October",
+    "currency": "EUR"
+  },
+  {
+    "city": "South Aegean",
+    "country_name": "Greece",
+    "lat": 36.44083,
+    "lng": 28.2225,
+    "country": "GR",
+    "bestSeason": "May – October",
+    "currency": "EUR"
+  },
+  {
+    "city": "Thessaloniki",
+    "country_name": "Greece",
+    "lat": 40.64361,
+    "lng": 22.93086,
+    "country": "GR",
+    "bestSeason": "May – October",
+    "currency": "EUR"
+  },
+  {
+    "city": "Budapest",
+    "country_name": "Hungary",
+    "lat": 47.49801,
+    "lng": 19.03991,
+    "country": "HU",
+    "bestSeason": "May – September",
+    "currency": "HUF"
+  },
+  {
+    "city": "Dublin",
+    "country_name": "Ireland",
+    "lat": 53.33306,
+    "lng": -6.24889,
+    "country": "IE",
+    "bestSeason": "May – September",
+    "currency": "EUR"
+  },
+  {
+    "city": "Bergamo",
+    "country_name": "Italy",
+    "lat": 45.69601,
+    "lng": 9.66721,
+    "country": "IT",
+    "bestSeason": "April – June, September – October",
+    "currency": "EUR"
+  },
+  {
+    "city": "Bologna",
+    "country_name": "Italy",
+    "lat": 44.49381,
+    "lng": 11.33875,
+    "country": "IT",
+    "bestSeason": "April – June, September – October",
+    "currency": "EUR"
+  },
+  {
+    "city": "Florence",
+    "country_name": "Italy",
+    "lat": 43.77925,
+    "lng": 11.24626,
+    "country": "IT",
+    "bestSeason": "April – June, September – October",
+    "currency": "EUR"
+  },
+  {
+    "city": "Milan",
+    "country_name": "Italy",
+    "lat": 45.46427,
+    "lng": 9.18951,
+    "country": "IT",
+    "bestSeason": "April – June, September – October",
+    "currency": "EUR"
+  },
+  {
+    "city": "Naples",
+    "country_name": "Italy",
+    "lat": 40.85631,
+    "lng": 14.24641,
+    "country": "IT",
+    "bestSeason": "April – June, September – October",
+    "currency": "EUR"
+  },
+  {
+    "city": "Puglia",
+    "country_name": "Italy",
+    "lat": 40.7928393,
+    "lng": 17.1011931,
+    "country": "IT",
+    "bestSeason": "April – June, September – October",
+    "currency": "EUR"
+  },
+  {
+    "city": "Rome",
+    "country_name": "Italy",
+    "lat": 41.89193,
+    "lng": 12.51133,
+    "country": "IT",
+    "bestSeason": "April – June, September – October",
+    "currency": "EUR"
+  },
+  {
+    "city": "Sicily",
+    "country_name": "Italy",
+    "lat": 38.116669,
+    "lng": 13.366667,
+    "country": "IT",
+    "bestSeason": "April – June, September – October",
+    "currency": "EUR"
+  },
+  {
+    "city": "Trentino",
+    "country_name": "Italy",
+    "lat": 46.066666,
+    "lng": 11.116667,
+    "country": "IT",
+    "bestSeason": "June – September",
+    "currency": "EUR"
+  },
+  {
+    "city": "Venice",
+    "country_name": "Italy",
+    "lat": 45.438759,
+    "lng": 12.327145,
+    "country": "IT",
+    "bestSeason": "April – June, September – October",
+    "currency": "EUR"
+  },
+  {
+    "city": "Riga",
+    "country_name": "Latvia",
+    "lat": 56.946,
+    "lng": 24.10589,
+    "country": "LV",
+    "bestSeason": "May – September",
+    "currency": "EUR"
+  },
+  {
+    "city": "Oslo",
+    "country_name": "Norway",
+    "lat": 59.91273,
+    "lng": 10.74609,
+    "country": "NO",
+    "bestSeason": "May – September",
+    "currency": "NOK"
+  },
+  {
+    "city": "Lisbon",
+    "country_name": "Portugal",
+    "lat": 38.71667,
+    "lng": -9.13333,
+    "country": "PT",
+    "bestSeason": "March – May, September – October",
+    "currency": "EUR"
+  },
+  {
+    "city": "Porto",
+    "country_name": "Portugal",
+    "lat": 41.14961,
+    "lng": -8.61099,
+    "country": "PT",
+    "bestSeason": "March – May, September – October",
+    "currency": "EUR"
+  },
+  {
+    "city": "Barcelona",
+    "country_name": "Spain",
+    "lat": 41.38879,
+    "lng": 2.15899,
+    "country": "ES",
+    "bestSeason": "May – June, September – October",
+    "currency": "EUR"
+  },
+  {
+    "city": "Euskadi",
+    "country_name": "Spain",
+    "lat": 43.266953,
+    "lng": -2.938022,
+    "country": "ES",
+    "bestSeason": "June – September",
+    "currency": "EUR"
+  },
+  {
+    "city": "Girona",
+    "country_name": "Spain",
+    "lat": 41.979401,
+    "lng": 2.821426,
+    "country": "ES",
+    "bestSeason": "May – June, September – October",
+    "currency": "EUR"
+  },
+  {
+    "city": "Madrid",
+    "country_name": "Spain",
+    "lat": 40.4165,
+    "lng": -3.70256,
+    "country": "ES",
+    "bestSeason": "April – June, September – October",
+    "currency": "EUR"
+  },
+  {
+    "city": "Malaga",
+    "country_name": "Spain",
+    "lat": 36.72016,
+    "lng": -4.42034,
+    "country": "ES",
+    "bestSeason": "March – June, September – October",
+    "currency": "EUR"
+  },
+  {
+    "city": "Mallorca",
+    "country_name": "Spain",
+    "lat": 39.571625,
+    "lng": 2.650544,
+    "country": "ES",
+    "bestSeason": "May – June, September – October",
+    "currency": "EUR"
+  },
+  {
+    "city": "Menorca",
+    "country_name": "Spain",
+    "lat": 39.9666628,
+    "lng": 4.083333,
+    "country": "ES",
+    "bestSeason": "May – June, September – October",
+    "currency": "EUR"
+  },
+  {
+    "city": "Sevilla",
+    "country_name": "Spain",
+    "lat": 37.38283,
+    "lng": -5.97317,
+    "country": "ES",
+    "bestSeason": "March – May, September – November",
+    "currency": "EUR"
+  },
+  {
+    "city": "Valencia",
+    "country_name": "Spain",
+    "lat": 39.46975,
+    "lng": -0.37739,
+    "country": "ES",
+    "bestSeason": "March – June, September – October",
+    "currency": "EUR"
+  },
+  {
+    "city": "Stockholm",
+    "country_name": "Sweden",
+    "lat": 59.33258,
+    "lng": 18.0649,
+    "country": "SE",
+    "bestSeason": "May – September",
+    "currency": "SEK"
+  },
+  {
+    "city": "Geneva",
+    "country_name": "Switzerland",
+    "lat": 46.20222,
+    "lng": 6.14569,
+    "country": "CH",
+    "bestSeason": "June – September",
+    "currency": "CHF"
+  },
+  {
+    "city": "Vaud",
+    "country_name": "Switzerland",
+    "lat": 46.61671,
+    "lng": 6.64496,
+    "country": "CH",
+    "bestSeason": "June – September",
+    "currency": "CHF"
+  },
+  {
+    "city": "Zurich",
+    "country_name": "Switzerland",
+    "lat": 47.36667,
+    "lng": 8.55,
+    "country": "CH",
+    "bestSeason": "June – September",
+    "currency": "CHF"
+  },
+  {
+    "city": "Amsterdam",
+    "country_name": "Netherlands",
+    "lat": 52.37403,
+    "lng": 4.88969,
+    "country": "NL",
+    "bestSeason": "April – October",
+    "currency": "EUR"
+  },
+  {
+    "city": "Rotterdam",
+    "country_name": "Netherlands",
+    "lat": 51.9225,
+    "lng": 4.47917,
+    "country": "NL",
+    "bestSeason": "April – October",
+    "currency": "EUR"
+  },
+  {
+    "city": "The Hague",
+    "country_name": "Netherlands",
+    "lat": 52.07667,
+    "lng": 4.29861,
+    "country": "NL",
+    "bestSeason": "April – October",
+    "currency": "EUR"
+  },
+  {
+    "city": "Istanbul",
+    "country_name": "Turkey",
+    "lat": 41.01384,
+    "lng": 28.94966,
+    "country": "TR",
+    "bestSeason": "April – May, September – October",
+    "currency": "TRY"
+  },
+  {
+    "city": "Bristol",
+    "country_name": "United Kingdom",
+    "lat": 51.45523,
+    "lng": -2.59665,
+    "country": "GB",
+    "bestSeason": "May – September",
+    "currency": "GBP"
+  },
+  {
+    "city": "Edinburgh",
+    "country_name": "United Kingdom",
+    "lat": 55.95206,
+    "lng": -3.19648,
+    "country": "GB",
+    "bestSeason": "May – September",
+    "currency": "GBP"
+  },
+  {
+    "city": "Greater Manchester",
+    "country_name": "United Kingdom",
+    "lat": 53.483959,
+    "lng": -2.244644,
+    "country": "GB",
+    "bestSeason": "May – September",
+    "currency": "GBP"
+  },
+  {
+    "city": "London",
+    "country_name": "United Kingdom",
+    "lat": 51.50853,
+    "lng": -0.12574,
+    "country": "GB",
+    "bestSeason": "May – September",
+    "currency": "GBP"
+  }
+]

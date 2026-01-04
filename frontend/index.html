@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>RentApp - Predict Rent</title>
+    <link rel="stylesheet" href="/static/css/style.css?v=12" />
+</head>
+<body>
+  <header class="site-header">
+  <div class="container">
+    <h1 class="logo-title">&#127760 RentellyWorld</h1>
+
+    <nav class="site-nav">
+      <a href="/predict">Predict</a>
+      <a href="/about">About</a>
+
+    </nav>
+  </div>
+</header>
+
+
+
+  <main class="hero-section">
+  <div class="hero-text">
+
+    <div class="quote-box">
+      <div class="line-top">You explore, you choose,</div>
+      <div class="line-bottom">we predict!</div>
+    </div>
+
+    <p>
+      Want to know what a rental is really worth? <br><br>
+      With RentellyWorld, you get data-backed predictions based on real Airbnb data at over 
+      100 cities worldwide!
+      Whether you’re booking or hosting — we help you make smarter choices.
+    </p>
+
+    <!-- Read more lives INSIDE .hero-text, under the paragraph -->
+    <details class="readmore">
+  <summary class="btn-readmore">Read more</summary>
+
+  <div class="scrollbox" tabindex="0">
+    <p>
+      RentellyWorld uses listing signals (bedrooms, bathrooms, accommodates,
+      cleanliness and location scores, review density, and more) to estimate
+      fair prices for rentals in the most-known cities.
+    </p>
+    <p>
+      Enter a few basics, click Predict, and get an instant estimate to guide
+      your pricing or booking decisions. Hosts check price sanity before
+      publishing. Travelers spot under/over‑priced stays and book smarter.
+    </p>
+    <p>
+      We keep it fast and simple so you can compare options quickly and choose
+      with confidence.
+    </p>
+
+  </div>
+  
+</details>
+
+  </div>
+
+  </div>
+
+  <div class="hero-image slideshow">
+  <!-- The first visible image -->
+  <img class="slide current" src="/static/logo+img/florence.jpg" alt="Florence apartment" />
+
+  <!-- The second image (used for smooth cross-fade) -->
+  <img class="slide next" src="" alt="" aria-hidden="true" />
+
+  <!-- City caption -->
+  <div class="slide-caption">
+    <h3 class="city-name">Florence</h3>
+    <p class="city-nickname">The Cradle of the Renaissance</p>
+  </div>
+
+  <!-- Navigation arrows -->
+  <button class="slide-nav prev" aria-label="Previous image">&#10094;</button>
+  <button class="slide-nav next-btn" aria-label="Next image">&#10095;</button>
+
+  <!-- Dots -->
+  <div class="slide-dots"></div>
+</div>
+
+
+</main>
+
+
+
+<section class="top-cities-intro">
+  <section class="top-cities-intro-text">
+
+    <div class="quote-box">
+      <div class="line-top">Your World, Your Way:</div>
+      <div class="line-bottom">Top Cities for Every Taste</div>
+    </div>
+
+  <div class="top-cities-columns">
+  <!-- LEFT COLUMN -->
+  <div class="column">
+    <section class="top-cities-category">
+      <h3>Historic Wonders</h3>
+      <div class="city-bar" data-score="9">Paris</div>
+      <div class="city-bar" data-score="8">Rome</div>
+      <div class="city-bar" data-score="7">Kyoto</div>
+      <div class="city-bar" data-score="6">Istanbul</div>
+      <div class="city-bar" data-score="5">Barcelona</div>
+    </section>
+
+    <section class="top-cities-category">
+      <h3>Peaceful Escapes</h3>
+      <div class="city-bar" data-score="9">Bali</div>
+      <div class="city-bar" data-score="8">Maldives</div>
+      <div class="city-bar" data-score="7">Santorini</div>
+      <div class="city-bar" data-score="6">Tulum</div>
+      <div class="city-bar" data-score="5">Maui</div>
+    </section>
+
+    <section class="top-cities-category">
+      <h3>Vibrant Nights</h3>
+      <div class="city-bar" data-score="9">Ibiza</div>
+      <div class="city-bar" data-score="8">Berlin</div>
+      <div class="city-bar" data-score="7">Miami</div>
+      <div class="city-bar" data-score="6">Bangkok</div>
+      <div class="city-bar" data-score="5">Rio</div>
+    </section>
+  </div>
+
+  <!-- RIGHT COLUMN -->
+  <div class="column">
+    <section class="top-cities-category">
+      <h3>Culinary Delights</h3>
+      <div class="city-bar" data-score="9">Tokyo</div>
+      <div class="city-bar" data-score="8">Bangkok</div>
+      <div class="city-bar" data-score="7">Naples</div>
+      <div class="city-bar" data-score="6">Istanbul</div>
+      <div class="city-bar" data-score="5">New Orleans</div>
+    </section>
+
+    <section class="top-cities-category">
+      <h3>Work & Remote Life</h3>
+      <div class="city-bar" data-score="9">Queenstown</div>
+      <div class="city-bar" data-score="8">Cape Town</div>
+      <div class="city-bar" data-score="7">Cusco</div>
+      <div class="city-bar" data-score="6">Banff</div>
+      <div class="city-bar" data-score="5">Reykjavik</div>
+    </section>
+
+    <section class="top-cities-category">
+      <h3>Cities of Love</h3>
+      <div class="city-bar" data-score="9">Paris</div>
+      <div class="city-bar" data-score="8">Venice</div>
+      <div class="city-bar" data-score="7">Vienna</div>
+      <div class="city-bar" data-score="6">Prague</div>
+      <div class="city-bar" data-score="5">Seville</div>
+    </section>
+  </div>
+</div>
+
+</section>
+
+  </div>
+
+
+</section>
+
+<section class="explore-invite">
+  <section class="explore-intro-text">
+    <div class="quote-box">
+      <div class="line-top">Where Will You Go Next?</div>
+      <div class="line-bottom">Predict = confidence.</div>
+    </div>
+
+    <div class="explore-columns">
+      
+      <!-- LEFT COLUMN: display city name here -->
+    <div class="column" id="city-column">
+  <div class="city-info-wrapper">
+    <p id="globe-instructions">
+      Curious where to go next?<br>
+      Just hover your mouse over a glowing dot on the globe — and the city with all important information will appear here on
+       the left. Your goal is to be informed, our goal is to give you always inflormation!
+    </p>
+          <div class="exchange-controls">
+        <div class="exchange-left">
+          <span class="label-bold">Last update:</span>
+          <span id="last-update-label">Loading...</span>
+        </div>
+        <div class="exchange-right">
+          <label class="label-bold" for="currency-select">Currency:</label>
+          <select id="currency-select">
+            <option value="EUR" selected>EUR (€)</option>
+            <option value="USD">USD ($)</option>
+            <option value="GBP">GBP (£)</option>
+            <option value="JPY">JPY (¥)</option>
+            <option value="AUD">AUD (A$)</option>
+            <option value="RON">RON (lei)</option>
+            <option value="CAD">CAD (C$)</option>
+            <option value="CHF">CHF (CHF)</option>
+            <option value="CZK">CZK (Kč)</option>
+            <option value="MXN">MXN (MX$)</option>
+            <option value="HUF">HUF (Ft)</option>
+          </select>
+        </div>
+      </div>
+
+    <div id="city-name-display">Click on a city...</div>
+  </div>
+</div>
+
+
+    <!-- RIGHT COLUMN: globe only -->
+    <div class="column globe-wrapper">
+      <div id="globe-container"></div>
+      <div id="globe-hover-label"></div>
+    </div>
+
+
+  </section>
+</section>
+
+
+
+
+<section class="explore-invite">
+  <section class="explore-intro-text">
+    <div class="quote-box">
+      <div class="line-top">Still undecided? All options for you.</div>
+      <div class="line-bottom">Search for your city right away!</div>
+    </div>
+
+    <div class="explore-columns">
+      
+      <!-- LEFT COLUMN: display city name here -->
+    <div class="column" id="city-column">
+  <div class="city-info-wrapper">
+    <p id="globe-instructions">
+      Not every journey starts with a plan — but sometimes you’re drawn to a dream destination. <br>
+      Type it into the search bar and we’ll give you the smartest, data-backed predictions for 
+      that place. <br>Need inspiration instead? That’s where our virtual travel assistant, 
+      <b>Rentella</b> comes in! She’s here 24/7 to understand your preferences and suggest the 
+      top 3 destinations tailored just for you. <br>
+      Whether you're seeking beaches, culture, peace, or nightlife — everytime on your back!
+    </p>
+  </div>
+
+</div>
+
+
+    <!-- RIGHT COLUMN: Search bar -->
+    <div class="column">
+  <input 
+    type="text" 
+    id="search-cities" 
+    placeholder="🔍 Search city or continent..." 
+    autocomplete="off"
+  />
+  <div id="search-results" class="dropdown-results"> </div>
+
+  <div id="search-city-display"></div>
+  </div>
+
+
+  </section>
+</section>
+
+
+  <footer>
+    <p>&copy; 2025 RentApp</p>
+  </footer>
+
+
+
+
+
+  <!-- Load core libraries -->
+<script src="https://unpkg.com/globe.gl"></script>
+
+<!-- Your custom JS scripts -->
+<script src="/static/js/shared_city_render.js"></script>
+<script src="/static/js/globe.js"></script>
+<script src="/static/js/search_bar.js"></script>
+
+
+
+
+<!-- 🔵 Floating Chat Button -->
+<div id="chat-launcher" title="Chat with Rentella">💬</div>
+
+<!-- 🔵 Chatbot Box -->
+<div id="chat-box" class="hidden">
+  <div class="chat-header">
+    <span>Rentella Assistant</span>
+    <button id="close-chat">×</button>
+  </div>
+  <div class="chat-content" id="chat-content">
+    <div class="message bot">
+      Hello! My name is <strong>Rentella</strong>, your virtual assistant. What do you want to know, dear traveler?
+      <div class="option-buttons">
+        <button data-choice="top3">Top 3 cities for me</button>
+        <button data-choice="surprise">I don't know</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

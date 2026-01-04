@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>RentApp - City Predictor</title>
+  <link rel="stylesheet" href="/static/css/style.css?v=12" />
+
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo-title">&#127760; RentellyWorld</h1>
+      <nav class="site-nav">
+        <a href="/predict">Predict</a>
+        <a href="/about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="hero-section">
+  <div class="hero-text">
+    <div class="predict-container">
+      <h1 id="cityTitle">Welcome to [City] Predictor!</h1>
+
+      <form id="predictionForm">
+        <div class="section-title">🔍 Simple Search</div>
+        <label>Accommodates:
+          <input name="accommodates" required type="number" min="1" />
+        </label>
+        <label>Bedrooms:
+          <input name="bedrooms" required type="number" min="0" step="0.5" />
+        </label>
+        <label>Bathrooms:
+          <input name="bathrooms" required type="number" min="0" step="0.5" />
+        </label>
+
+        <div class="section-title">⚙️ Advanced Search (Optional)</div>
+        <label>Beds:
+          <input name="beds" type="number" min="0" step="0.5" />
+        </label>
+        <label>Review Score Rating:
+          <input name="review_scores_rating" type="number" step="0.1" />
+        </label>
+        <label>Number of Reviews:
+          <input name="number_of_reviews" type="number" />
+        </label>
+        <label>Reviews Per Month:
+          <input name="reviews_per_month" type="number" step="0.1" />
+        </label>
+
+        <button type="submit">Predict</button>
+      </form>
+
+      <div id="result"></div>
+    </div>
+  </div>
+
+  <div class="hero-image">
+  <img id="cityImage" src="/static/logo+img/logo.png" alt="City image" style="width: 100%; height: auto;" />
+    <div class="slide-caption">
+      <h3 class="city-name">City</h3>
+    </div>
+  </div>
+</main>
+
+
+  <footer style="text-align: center; padding: 20px 0;">
+    <p>&copy; 2025 RentApp</p>
+  </footer>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const city = params.get("city") || "unknown";
+    document.getElementById("cityTitle").innerText = `Welcome to ${city.charAt(0).toUpperCase() + city.slice(1)} Predictor!`;
+
+    document.getElementById("predictionForm").addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const formData = new FormData(e.target);
+      let input = {};
+      for (let [key, value] of formData.entries()) {
+        // Convert empty strings to undefined
+        if (value !== "") {
+          input[key] = value;
+        }
+      }
+
+      input.accommodates = parseInt(input.accommodates);
+      input.bedrooms = parseFloat(input.bedrooms);
+      input.bathrooms = parseFloat(input.bathrooms);
+      if (input.beds) input.beds = parseFloat(input.beds);
+      if (input.review_scores_rating) input.review_scores_rating = parseFloat(input.review_scores_rating);
+      if (input.number_of_reviews) input.number_of_reviews = parseFloat(input.number_of_reviews);
+      if (input.reviews_per_month) input.reviews_per_month = parseFloat(input.reviews_per_month);
+
+      input.room_type_Private_room = 1;
+      input.room_type_Entire_home_apt = 0;
+      input.neighbourhood_cleansed_Centro_Storico = 0;
+      input.property_type_Apartment = 1;
+      input.city = city;
+
+      try {
+        const res = await fetch("/predict", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(input)
+        });
+
+        const data = await res.json();
+        document.getElementById("result").innerText = data.estimated_price
+          ? `💰 Estimated price: €${data.estimated_price}`
+          : `❌ Error: ${data.error || "Prediction failed."}`;
+      } catch (err) {
+        document.getElementById("result").innerText = "❌ Prediction request failed.";
+        console.error(err);
+      }
+    });
+
+    // Set the city image dynamically. Try several filename variants then fall back to default.jpg
+    (function setCityImage() {
+      const img = document.getElementById('cityImage');
+      const captionName = document.querySelector('.city-name');
+      const rawCity = (city || '').trim();
+      const base = '/static/logo+img/';
+
+      if (!rawCity) {
+        img.src = base + 'default.jpg';
+        img.alt = 'Unknown city';
+        return;
+      }
+
+      // Candidate filename patterns to try (in order).
+      const variants = [
+        `${rawCity}.jpg`,
+        `${rawCity.toLowerCase()}.jpg`,
+        `${rawCity.replace(/\s+/g, '_')}.jpg`,
+        `${rawCity.replace(/\s+/g, '-')}.jpg`,
+      ];
+
+      let attempt = 0;
+
+      function tryNext() {
+        if (attempt >= variants.length) {
+          // fall back to a neutral logo image that exists in the repo
+          img.src = base + 'logo.png';
+          img.alt = rawCity;
+          return;
+        }
+
+        const filename = variants[attempt++];
+        // encodeURIComponent for safety (spaces -> %20 etc)
+        img.src = base + encodeURIComponent(filename);
+        img.alt = rawCity;
+      }
+
+      img.addEventListener('error', function onErr() {
+        // Remove this listener if we've exhausted attempts or are about to try next
+        // (it will be automatically removed if we set src to default and stop)
+        tryNext();
+      });
+
+      // Kick off first attempt
+      tryNext();
+      // Set caption to title-case city name (simple)
+      if (captionName) {
+        const titleCase = rawCity.split(/\s+/).map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+        captionName.innerText = titleCase || 'Unknown';
+      }
+    })();
+  </script>
+</body>
+</html>
