@@ -73,3 +73,33 @@ RentAPP/
    - cities.json # Metadata for cities
    - average_prices.json # Cached price per city
    - exchange_rates.json # Cached FX data
+
+
+
+## Installation & Running Locally
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/yourusername/rentellyworld.git
+cd rentellyworld
+```
+
+### 2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Launch the backend server
+
+```bash
+uvicorn backend.main:app --reload
+```
+
+### 4. Visit the app in the desired browser
+
+```bash
+http://127.0.0.1:8000
+```
+
