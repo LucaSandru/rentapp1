@@ -74,7 +74,7 @@ RentAPP/
    - average_prices.json # Cached price per city
    - exchange_rates.json # Cached FX data
 
-
+---
 
 ## Installation & Running Locally
 
@@ -103,3 +103,12 @@ uvicorn backend.main:app --reload
 http://127.0.0.1:8000
 ```
 
+---
+
+## Future improvements
+
+- Add multi-city support and dynamic model switching
+- Improve model generalization across cities
+- Integrate more features to become 'mandatory' ones (e.g., amenities, availability)
+- Mobile-responsive design
+- Add user authentication to save predictions
