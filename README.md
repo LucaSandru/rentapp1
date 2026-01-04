@@ -57,19 +57,4 @@ This project is designed to help *travelers* make smarter booking decisions and 
 
 ## Project Structure
 
-RentApp/
-├── backend/
-│ ├── main.py # FastAPI server
-│ ├── api/models/ # ML models + metadata
-│ └── scripts/ # Scripts to update prices, etc.
-├── frontend/
-│ ├── index.html # Landing page
-│ ├── predict.html # Prediction UI
-│ ├── js/ # Interactive JS (globe, search)
-│ └── css/style.css # Main styling
-├── notebooks/
-│ └── fixed_train_florence.ipynb
-├── data/
-│ ├── cities.json # Metadata for cities
-│ ├── average_prices.json # Cached price per city
-│ └── exchange_rates.json # Cached FX data
+<pre> <code> ``` RentApp/ ├── backend/ │ ├── main.py # FastAPI server │ ├── api/models/ # ML models + metadata │ └── scripts/ # Scripts to update prices, etc. ├── frontend/ │ ├── index.html # Landing page │ ├── predict.html # Prediction UI │ ├── js/ # Interactive JS (globe, search) │ └── css/style.css # Main styling ├── notebooks/ │ └── fixed_train_florence.ipynb ├── data/ │ ├── cities.json # Metadata for cities │ ├── average_prices.json # Cached price per city │ └── exchange_rates.json # Cached FX data ``` </code> </pre>
