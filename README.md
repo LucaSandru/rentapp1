@@ -57,7 +57,6 @@ This project is designed to help *travelers* make smarter booking decisions and 
 
 ## Project Structure
 
-
 RentApp/
 ├── backend/
 │ ├── main.py # FastAPI server
