@@ -57,4 +57,14 @@ This project is designed to help *travelers* make smarter booking decisions and 
 
 ## Project Structure
 
-
+RentAPP/
+- backend/
+ - main.py # FastAPI server
+ - api/models/ # ML models + metadata
+ - scripts/ # Scripts to update prices, etc.
+- frontend/
+ - index.html # Main page
+ - predict.html # Prediction UI
+ - js/ # Interactive JS (globe.js, search.js etc.)
+ - css/style.css # Main styling
+- notebooks
